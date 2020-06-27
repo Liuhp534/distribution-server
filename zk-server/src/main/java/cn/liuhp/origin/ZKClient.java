@@ -24,7 +24,7 @@ public class ZKClient {
                 // 监控所有被触发的事件
                 public void process(WatchedEvent event)
                 {
-                    System.out.println(event.toString());
+                    System.out.println("监听事件=" + event.toString());
                 }
             });
             // 创建一个目录节点
