@@ -10,6 +10,7 @@
     <modules>
         <module>netty-server</module>
         <module>zk-server</module>
+        <module>kafka-server</module>
     </modules>
     <packaging>pom</packaging>
 
